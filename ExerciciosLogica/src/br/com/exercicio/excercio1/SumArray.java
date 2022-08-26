@@ -1,4 +1,4 @@
-package br.com.exercicio.excercio1;
+package br.com.sanchez.backend.java;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -51,9 +51,10 @@ public class SumArray {
                 return true;
             } else {
                 int dif = numero - busca;
-                int difPositiva = (dif < 0) ? dif * -1 : dif;
-
-                numeroProcurado.put(difPositiva, difPositiva);
+                if (dif < 0) {
+                    int difPositiva = dif * -1;
+                    numeroProcurado.put(difPositiva, difPositiva);
+                }
             }
         }
         return false;
