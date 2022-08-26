@@ -1,12 +1,12 @@
-package br.com.sanchez.backend.java;
+package br.com.exercicios;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Dando um array de numeros inteiros
- * Buscar o par de numeros cuja soma é igual a um valor passado como parametro.
- */
+* Dando um array de numeros inteiros
+* Buscar o par de numeros cuja soma é igual a um valor passado como parametro.
+*/
 public class SumArray {
 
     public static void main(String[] args) {

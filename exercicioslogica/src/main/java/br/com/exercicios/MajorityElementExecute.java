@@ -1,3 +1,5 @@
+package br.com.exercicios;
+
 public class MajorityElementExecute {
 
     public static void main(String[] args) {
